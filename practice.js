@@ -21,7 +21,8 @@ function eatMostTacos(sum1, sum2) {
 }
 
 function adoptSmallerDog(weight1, weight2) {
-  const smallDog = findBiggerNumber(weight1, weight2);
+  //const smallDog = findBiggerNumber(weight1, weight2);
+  const smallDog = weight1 < weight2 ? weight1 : weight2;
   return `I adopted a dog that weighs ${smallDog} pounds.`;
 }
 
