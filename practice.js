@@ -17,12 +17,12 @@ function divideBiggerNumByThree(num1, num2) {
 
 function eatMostTacos(sum1, sum2) {
   const bigNum = findBiggerNumber(sum1, sum2);
-  return 'I ate ${bigNum} tacos.';
+  return `I ate ${bigNum} tacos.`;
 }
 
 function adoptSmallerDog(weight1, weight2) {
   const smallDog = findBiggerNumber(weight1, weight2);
-  return 'I adopted a dog that weighs ${smallDog} pounds.';
+  return `I adopted a dog that weighs ${smallDog} pounds.`;
 }
 
 /**************************************************************************/
